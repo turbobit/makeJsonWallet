@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>makeJsonWallet</title>
+</head>
+<body>
+	<div>
+		<h1>Make ESN wallet with PrivateKey and password</h1>
+		Input PrivateKey	:	<input type="text" id="pk" size="65" /><Br>
+		Input password		:	<input type="text" id="pw" size="65" /><br>
+		<input type="button" value="filedownloasd" id="btn" onclick="getFiledown()" />
+	</div>
+	<script>
+	function getFiledown(){
+		var pk = document.getElementById("pk").value;
+		var pw = document.getElementById("pw").value;
+		window.open('/'+pk+'/'+pw);
+
+	}
+	</script>
+</body>
+</html>

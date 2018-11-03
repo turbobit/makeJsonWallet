@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "path": "^0.12.7",
+    "web3": "^1.0.0-beta.36"
+  }
+}
